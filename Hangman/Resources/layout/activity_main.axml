@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/op1">
+	   <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <EditText
+                android:hint="Enter Name or Select Player "
+                android:id="@+id/txtName"
+                android:inputType="textPersonName"
+                android:layout_width="248.0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80" />
+            <Button
+                android:text="New Player"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnAdd"
+                android:layout_weight="20"
+			android:background="@color/op2" 
+			android:textColor="@color/fore"
+			 style="?android:attr/borderlessButtonStyle" />
+        </LinearLayout>
+		<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+			android:layout_marginTop="20dp"
+			android:gravity="center">
+        <CheckBox
+            android:text="Kids Play"
+            android:id="@+id/cbxEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+        <CheckBox
+            android:text="Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cbxNormal"
+            android:checked="true" />
+        <CheckBox
+            android:text="Expert"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cbxDifficult"
+            android:checked="true" />
+    </LinearLayout>
+		 <Button
+            android:text="Play!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlay"
+            android:textSize="40dip"
+            android:layout_gravity="center"
+			android:background="@color/op2" 
+			android:textColor="@color/fore"
+			android:layout_marginTop="30dp"
+			android:padding="10dp"
+		 
+		/>
+       
+       
+    </LinearLayout>
+	 <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="335.5dp"
+            android:id="@+id/listView1"
+            android:layout_marginBottom="0.0dp" />
+    
+</LinearLayout>

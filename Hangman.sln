@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{5AAC7568-DE26-4B02-A87A-E31E21961B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{8A3E212F-3DB4-4F53-A9E3-B96C6FDAACF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAC7568-DE26-4B02-A87A-E31E21961B5E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8A3E212F-3DB4-4F53-A9E3-B96C6FDAACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3E212F-3DB4-4F53-A9E3-B96C6FDAACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3E212F-3DB4-4F53-A9E3-B96C6FDAACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3E212F-3DB4-4F53-A9E3-B96C6FDAACF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98F88AB1-CA55-489A-B15E-04C1E2FCC7F6}
+	EndGlobalSection
+EndGlobal
